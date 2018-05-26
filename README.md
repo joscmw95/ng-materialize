@@ -45,7 +45,7 @@ In your component, use it for dynamic behavior. For example, for collapsible pan
 
 ```
 
-Apply an empty [MaterializeDirective](https://github.com/joscmw95/ng-materialize/blob/master/lib/materialize-directive.ts) attribute directive for top level components, like forms:
+Apply an empty [MaterializeDirective](https://github.com/joscmw95/ng-materialize/tree/master/lib/materialize-directive.ts) attribute directive for top level components, like forms:
 ```html
 <form materialize class="col s12">
   <div class="row">
@@ -57,14 +57,14 @@ Apply an empty [MaterializeDirective](https://github.com/joscmw95/ng-materialize
 </form>
 ```
 
-The [MaterializeDirective](https://github.com/joscmw95/ng-materialize/blob/master/lib/materialize-directive.ts) attribute directive (**materialize**) accepts any MaterializeCSS initialization call to apply to the element. The list of supported functions are provided by MaterializeCSS. Examples: collapsible, modal, tooltip, dropdown, tabs, material_select, sideNav, etc.
+The [MaterializeDirective](https://github.com/joscmw95/ng-materialize/tree/master/lib/materialize-directive.ts) attribute directive (**materialize**) accepts any MaterializeCSS initialization call to apply to the element. The list of supported functions are provided by MaterializeCSS. Examples: collapsible, modal, tooltip, dropdown, tabs, material_select, sideNav, etc.
 
 For example, to apply tooltip:
 ```html
 <a materialize="tooltip" class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Hover me!</a>
 ```
 
-The [Materialize](https://github.com/joscmw95/ng-materialize/blob/master/lib/materialize-directive.ts) attribute directive also allows specifying parameters to be passed to the function, but providing a **materializeParams** attribute returning an array of params. Use it with a function call or even by inlining the params in the HTML.
+The [Materialize](https://github.com/joscmw95/ng-materialize/blob/tree/lib/materialize-directive.ts) attribute directive also allows specifying parameters to be passed to the function, but providing a **materializeParams** attribute returning an array of params. Use it with a function call or even by inlining the params in the HTML.
 
 Another useful option is emitting actions on an element. You may want to do that for calling Materialize functions, like closing a modal dialog or triggering a toast. You can do that by setting the **materializeActions** attribute, which accepts an [EventEmitter](https://angular.io/docs/ts/latest/api/core/index/EventEmitter-class.html). The emitted events can either be a "string" type action (Materialize function call) or a structure with action and parameters:
 
@@ -199,5 +199,3 @@ Another thing you would need to confirm is being able to load web fonts properly
 { test: /.(png|woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/, loader: 'url-loader?limit=100000' },
 ```
 Notice that the url-loader is required for this to work (npm install it).
-
-The following example project is a fork of the ng-webpack-starter with the addition of ng-materialize: [InfomediaLtd/ng-webpack-starter](https://github.com/InfomediaLtd/ng-webpack-starter)
