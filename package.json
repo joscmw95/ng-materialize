@@ -1,0 +1,44 @@
+{
+  "name": "ng-materialize",
+  "description": "Angular support for Materialize CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joscmw95/ng-materialize.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular6",
+    "materialize",
+    "materializecss",
+    "materialize-css",
+    "materialize css"
+  ],
+  "author": "Ruby Boyarski <rubyboy@gmail.com>, Joshua Chan <joscmw95@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joscmw95/ng-materialize/issues"
+  },
+  "homepage": "https://github.com/joscmw95/ng-materialize",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.3.1",
+    "materialize-css": "~0.99.0"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/ng-materialize.umd.js",
+  "module": "fesm5/ng-materialize.js",
+  "es2015": "fesm2015/ng-materialize.js",
+  "esm5": "esm5/ng-materialize.js",
+  "esm2015": "esm2015/ng-materialize.js",
+  "fesm5": "fesm5/ng-materialize.js",
+  "fesm2015": "fesm2015/ng-materialize.js",
+  "typings": "ng-materialize.d.ts",
+  "metadata": "ng-materialize.metadata.json",
+  "sideEffects": false
+}

@@ -1,0 +1,21 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { MaterializeDirective } from "./materialize.directive";
+export { MaterializeModule } from "./materialize.module";
+if ("undefined" != typeof window && !("Materialize" in window)) {
+    throw new Error("Couldn't find Materialize object on window. It is created by the materialize-css library. Please import materialize-css before importing angular2-materialize.");
+}
+if ("undefined" != typeof window && !("Waves" in window)) {
+    throw new Error("Couldn't find Waves object on window. It is supposed to be created by the materialize-css library. Please import materialize-css before importing angular2-materialize.");
+}
+/**
+ * @param {...?} args
+ * @return {?}
+ */
+export function toast(...args) {
+    Materialize.toast(...args);
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy1tYXRlcmlhbGl6ZS8iLCJzb3VyY2VzIjpbImxpYi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLG9CQUFvQixFQUFxQixNQUFNLHlCQUF5QixDQUFDO0FBQ2xGLE9BQU8sRUFBRSxpQkFBaUIsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBRXpELEVBQUUsQ0FBQyxDQUFDLFdBQVcsSUFBRSxPQUFPLE1BQU0sSUFBSSxDQUFDLENBQUMsYUFBYSxJQUFJLE1BQU0sQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUM3RCxNQUFNLElBQUksS0FBSyxDQUFDLGdLQUFnSyxDQUFDLENBQUM7Q0FDbkw7QUFDRCxFQUFFLENBQUMsQ0FBQyxXQUFXLElBQUUsT0FBTyxNQUFNLElBQUksQ0FBQyxDQUFDLE9BQU8sSUFBSSxNQUFNLENBQUMsQ0FBQyxDQUFDLENBQUM7SUFDdkQsTUFBTSxJQUFJLEtBQUssQ0FBQyx5S0FBeUssQ0FBQyxDQUFDO0NBQzVMOzs7OztBQUtELE1BQU0sZ0JBQWdCLEdBQUcsSUFBSTtJQUMzQixXQUFXLENBQUMsS0FBSyxDQUFDLEdBQUcsSUFBSSxDQUFDLENBQUM7Q0FDNUIiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBNYXRlcmlhbGl6ZURpcmVjdGl2ZSwgTWF0ZXJpYWxpemVBY3Rpb24gfSBmcm9tIFwiLi9tYXRlcmlhbGl6ZS5kaXJlY3RpdmVcIjtcclxuZXhwb3J0IHsgTWF0ZXJpYWxpemVNb2R1bGUgfSBmcm9tIFwiLi9tYXRlcmlhbGl6ZS5tb2R1bGVcIjtcclxuXHJcbmlmIChcInVuZGVmaW5lZFwiIT10eXBlb2Ygd2luZG93ICYmICEoXCJNYXRlcmlhbGl6ZVwiIGluIHdpbmRvdykpIHtcclxuICB0aHJvdyBuZXcgRXJyb3IoXCJDb3VsZG4ndCBmaW5kIE1hdGVyaWFsaXplIG9iamVjdCBvbiB3aW5kb3cuIEl0IGlzIGNyZWF0ZWQgYnkgdGhlIG1hdGVyaWFsaXplLWNzcyBsaWJyYXJ5LiBQbGVhc2UgaW1wb3J0IG1hdGVyaWFsaXplLWNzcyBiZWZvcmUgaW1wb3J0aW5nIGFuZ3VsYXIyLW1hdGVyaWFsaXplLlwiKTtcclxufVxyXG5pZiAoXCJ1bmRlZmluZWRcIiE9dHlwZW9mIHdpbmRvdyAmJiAhKFwiV2F2ZXNcIiBpbiB3aW5kb3cpKSB7XHJcbiAgdGhyb3cgbmV3IEVycm9yKFwiQ291bGRuJ3QgZmluZCBXYXZlcyBvYmplY3Qgb24gd2luZG93LiBJdCBpcyBzdXBwb3NlZCB0byBiZSBjcmVhdGVkIGJ5IHRoZSBtYXRlcmlhbGl6ZS1jc3MgbGlicmFyeS4gUGxlYXNlIGltcG9ydCBtYXRlcmlhbGl6ZS1jc3MgYmVmb3JlIGltcG9ydGluZyBhbmd1bGFyMi1tYXRlcmlhbGl6ZS5cIik7XHJcbn1cclxuXHJcbmRlY2xhcmUgdmFyIFdhdmVzOiBhbnk7XHJcbmRlY2xhcmUgdmFyIE1hdGVyaWFsaXplOiBhbnk7XHJcblxyXG5leHBvcnQgZnVuY3Rpb24gdG9hc3QoLi4uYXJncykge1xyXG4gIE1hdGVyaWFsaXplLnRvYXN0KC4uLmFyZ3MpO1xyXG59Il19
