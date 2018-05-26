@@ -1,5 +1,7 @@
 # Ng Materialize
 
+This repository is a successor of [angular2-materialize](https://github.com/InfomediaLtd/angular2-materialize).
+
 Angular support for Materialize CSS framework [http://materializecss.com/](http://materializecss.com/)
 
 This library adds support for the Materialize CSS framework in Angular. It is needed to add the dynamic behavior of Materialize CSS that is using JavaScript rather than plain CSS.
